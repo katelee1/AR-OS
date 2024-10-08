@@ -23,5 +23,6 @@ message PropulsionReply{
   required double battery_voltage = 2;
   required double temperature_esp = 3;
   required double power_usage = 4;
+  required double
   option string msg = ;
 }
