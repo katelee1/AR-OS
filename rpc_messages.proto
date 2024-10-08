@@ -22,6 +22,6 @@ message PropulsionReply{
   required DirectionalInput position_vector = 1;
   required double battery_voltage = 2;
   required double temperature_esp = 3;
-  required double 
+  required double power_usage = 4;
   option string msg = ;
 }
